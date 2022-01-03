@@ -1,0 +1,214 @@
+
+@media screen and (max-width:1200px){
+    .detailSec{
+        display: flex;
+        width:80%;
+        margin-left:10%;
+        justify-content: center;
+    }    
+    .detailSec div{
+        margin:50px 20px;
+    }
+}
+@media screen and (max-width:1000px){
+    .contentTopH1{
+        font-size:30px !important;
+    }
+}
+
+@media screen and (max-width:930px){
+    .SearchForm form input[type="text"]{
+        width:100% ;
+    }
+    .SearchForm{
+        width:80%;
+    }
+    .SearchForm form button{
+        width:200px;
+        height:50px;
+    }
+    .SearchForm form{
+        width: 100% !important;
+        align-items: center;
+        flex-flow: column;
+    }
+    header{
+        z-index:300000;
+    }   
+    .contentTopH1{
+        text-align: center;
+    }
+    .topContent{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+    }
+    .topContent h4{
+        width:90%;
+        text-align: center;
+    }
+    .hpt-ru-ff{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hpt-ru-ff{
+        width:100% !important;
+        padding:50px;
+    }
+    
+    .myStoreBtn{
+        width:70%;
+        margin-left:0px;
+    }
+    .drf-yup-tdf{
+        flex-flow: column;
+    }
+    .cty-note{
+        width:90%;
+    }
+    .detailSec{
+        flex-wrap: wrap;
+    }
+    .detailSec div{
+        min-width:230px;
+    }
+    .cty-pic{
+        width:90%;
+    }
+    
+    .leftHeadp{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:780px){
+    .forMobile{
+        display: block;
+    }
+    .mobileKemon{
+        justify-content: center;
+    }
+    .forDesktop{
+        display: none;
+    }
+    .barKemon a{
+        font-size:25px;
+    }
+}
+@media screen and (max-width:750px){
+    .SearchForm form{
+        /* min-width:400px; */
+        align-items: center;
+        flex-flow: column;
+    }
+    .FooterLeft{
+        margin-left:20%;
+    }
+    .flexFooter{
+        flex-flow: column;
+    }
+}
+@media screen and (max-width:550px){
+    .hpt-ru-ff{
+        padding:0px;
+    }
+    .SearchForm form{
+        margin-top:50px;
+        align-items: center;
+        flex-flow: column;
+    }
+    .myStoreBtn{
+        height:50px;
+        margin-bottom:50px;
+        width:90%;
+        line-height:50px;
+        border-radius:5px;
+    }
+    .myStoreBtn h3{
+        line-height:50px;
+        font-size:22px;
+    }
+    .leftHeadp{
+        width:70%;
+    }
+    .contentTopH1{
+        font-size:35px !important;
+        padding-left:0px;
+        margin-left:0px;
+    }
+    .forReg li{
+        min-width:50px !important;
+    }
+    nav div li{
+        padding:0px;
+        margin:0px;
+    }
+    .drf-yup-tdf{
+        width:100%;
+        margin-left:0%;
+    }
+    .shopRegistered{
+        display:none;
+    }
+    .nav div li a{
+        padding:0px;
+    }
+    .secTitle{
+        font-size:30px;
+    }
+    .cty-note{
+        width:95%;
+        margin-left:2%;
+    }
+    .cty-note h1{
+        font-size:25px;
+    }
+    .teaching h3{
+        font-size:18px;
+    }
+    .imgfluidFooter{
+        width:30px;
+        max-width:150px;
+        height:100px;
+    }
+    .cty-note h4{
+        font-size:18px;
+    }
+    .detailSec div{
+        min-width:320px !important;
+    }
+    .social-links-s i{
+        font-size:17px !important;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .SearchForm{
+        width:95%;
+    }
+    .leftHeadp{
+        width:90%;
+    }
+    .barKemon a{
+        font-size:18px;
+    }
+    .teaching h3{
+        font-size:18px;
+    }
+    .imgfluidFooter{
+        width:30px;
+        max-width:150px;
+        height:100px;
+    }
+    .cty-note h4{
+        font-size:18px;
+    }
+    .detailSec div{
+        min-width:320px !important;
+    }
+}
